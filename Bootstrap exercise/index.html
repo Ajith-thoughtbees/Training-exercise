@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">ThoughtBees</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+  
+          </button>
+        <div class="collapse navbar-collapse" id="mobile_nav">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-md-right">
+        </ul>
+        <ul class="navbar-nav navbar-light">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item dmenu dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+                </a>
+                <div class="dropdown-menu sm-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Software Development</a>
+                    <a class="dropdown-item" href="#">Web Designing & Development</a>
+                    <a class="dropdown-item" href="#">Mobile Application</a>
+                    <a class="dropdown-item" href="#">Business Solutions & Business Process</a>
+                    <a class="dropdown-item" href="#">Digital Marketing & SEO Services</a>
+                    <a class="dropdown-item" href="#">Web Hosting & Maintenance</a>
+                    <a class="dropdown-item" href="#">Cyber Security</a>
+                    <a class="dropdown-item" href="#">Block Chain Implementation</a>
+                    <a class="dropdown-item" href="#">Big Data</a>
+                </div>
+            </li>
+            <!--========-->
+            <li class="nav-item dropdown megamenu-li dmenu">
+                <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Services</a>
+                <div class="dropdown-menu megamenu sm-menu border-top" aria-labelledby="dropdown01">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>Ecommerce</h6>
+                            <a class="dropdown-item" href="#"><i class="fab fa-magento"></i> Magento Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-magento"></i> Magento 2 Migration</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-magento"></i> Odoo ERP</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-magento"></i> Mobile Commerce</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-magento"></i> CRM for Commerce</a>
+                        </div>
+                       <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>LAMP Technology</h6>
+                            <a class="dropdown-item" href="#"><i class="fab fa-php"></i> PHP Website Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-circle"></i> Phalcon Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-laravel"></i> Laravel Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-wordpress-simple"></i> WordPress Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-php"></i> Symfony Development</a>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>Mobile</h6>
+                            <a class="dropdown-item" href="#"><i class="fab fa-apple"></i> iPhone App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-android"></i> Android App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-mobile-alt"></i> Phone Gap App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-tablet-alt"></i> Hybrid App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-mobile-alt"></i> Ionic Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-tablet-alt"></i> React Native Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-mobile-alt"></i> Xamarin App Development</a>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6>Node.js & MongoDB</h6>
+                            <a class="dropdown-item" href="#"><i class="fas fa-cubes"></i> Full Stack Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-cube"></i> MEAN Stack</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-angular"></i> AngularJS</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-node-js"></i> Node.JS Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-leaf fa-rotate-90"></i> MongoDB Development</a>
+                        </div>
+                    </div>
+                     <div class="row">
+                        <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>Microsoft Technology</h6>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> Microsoft App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> MS Desktop App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> SharePoint Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> ASP.NET Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> CMS Development</a>
+                        </div>
+                       <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>Cloud Services</h6>
+                            <a class="dropdown-item" href="#"><i class="fas fa-cloud"></i> DevOps</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-amazon"></i> Amazon Web Services</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> Azure Cloud Service</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-google"></i> Google App Engine Services</a>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>Enterprise Services</h6>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> Augmented Reality</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> CRM</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-buromobelexperte"></i> Enterprise Mobility Services</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-th-large"></i> Blockchain Services</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-briefcase"></i> Business Intelligence</a>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6>Digital Marketing</h6>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> Digital Marketing</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> PPC Management Services</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> E-commerce SEO Services</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> Conversion Rate Optimization</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!--=========-->
+            <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Careers</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contact us</a></li>
+   
+        </ul>
+        </div>
+    </div>
+</nav>
+<!-- Slider  -->
+<div class="slider">
+        <img class="imgs" src="image/slider.jpg" alt="">
+        <div class="cent">
+            <h2>Explore Amazing Destination</h2>
+            <p>Find great place to stay, eat, shop, or visit from local experts</p>
+           <div class="col-xs-10 col-xs-offset-1">
+                <form action="#" method="#" role="search">
+                <div class="input-group">
+                <input class="form-control" placeholder="Search . . ." name="srch-term" id="ed-srch-term" type="text">
+                <div class="input-group-btn">
+                <button type="submit" id="searchbtn"><img src="image/icon.png" class="search-icon" alt=""></button>
+                </div>
+                </div>
+                </form>
+                </div>
+                </div>
+            </div>
+
+<!-- Dropdown-->
+<div class="container" style="margin-top: 15px;">
+    <div class="btn-group">
+<div class="dropdown">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" >
+      Settings
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Link 1</a></li>
+      <li><a class="dropdown-item" href="#">Link 2</a></li>
+      <li><a class="dropdown-item" href="#">Link 3</a></li>
+    </ul>
+  </div>
+</div>
+<div class="btn-group">
+<div class="dropdown">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" >
+    Select
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Link 1</a></li>
+      <li><a class="dropdown-item" href="#">Link 2</a></li>
+      <li><a class="dropdown-item" href="#">Link 3</a></li>
+    </ul>
+  </div>
+</div>
+<div class="btn-group">
+<div class="dropdown">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+     categories
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Link 1</a></li>
+      <li><a class="dropdown-item" href="#">Link 2</a></li>
+      <li><a class="dropdown-item" href="#">Link 3</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+<!-- cards  -->
+<div class="container">
+
+    <!-- Card deck -->
+    <div class="card-deck row">
+    
+      <div class="col-xs-12 col-sm-6 col-md-4">
+      <!-- Card -->
+      <div class="card" id="card1">
+    
+        <!--Card image-->
+        <div class="view overlay" style="position: relative;">
+          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+          <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+          <div class="btn_outer">
+            <button class="ss"> $$$$</button>
+            <button class="sm"> TAG</button>
+
+          </div>
+           <div class="circle"> <img class="circle-img" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap"> </div>
+        </div>
+    
+        <!--Card content-->
+        <div class="card-body">
+    
+          <!--Title-->
+          <h4 class="card-title">1 Card title</h4>
+          <!--Text-->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+          <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+    
+        </div>
+    
+      </div>
+      <!-- Card -->
+      </div>
+    
+      <div class="col-xs-12 col-sm-6 col-md-4">
+      <!-- Card -->
+      <div class="card mb-4" id="card1">
+    
+        <!--Card image-->
+        <div class="view overlay" style="position: relative;">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="btn_outer">
+              <button class="ss"> $$$$</button>
+              <button class="sm"> TAG</button>
+  
+            </div>
+             <div class="circle"> <img class="circle-img" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap"> </div>
+          </div>
+    
+        <!--Card content-->
+        <div class="card-body">
+    
+          <!--Title-->
+          <h4 class="card-title">2 Card title</h4>
+          <!--Text-->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+          <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+    
+        </div>
+    
+      </div>
+      <!-- Card -->
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <!-- Card -->
+      <div class="card mb-4" id="card1">
+    
+        <!--Card image-->
+        <div class="view overlay" style="position: relative;">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="btn_outer">
+              <button class="ss"> $$$$</button>
+              <button class="sm"> TAG</button>
+  
+            </div>
+             <div class="circle"> <img class="circle-img" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap"> </div>
+          </div>
+    
+        <!--Card content-->
+        <div class="card-body">
+    
+          <!--Title-->
+          <h4 class="card-title">3 Card title</h4>
+          <!--Text-->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+          <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+    
+        </div>
+    
+      </div>
+      <!-- Card -->
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <!-- Card -->
+      <div class="card" id="card1">
+    
+        <!--Card image-->
+        <div class="view overlay" style="position: relative;">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="btn_outer">
+              <button class="ss"> $$$$</button>
+              <button class="sm"> TAG</button>
+  
+            </div>
+             <div class="circle"> <img class="circle-img" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap"> </div>
+          </div>
+        <!--Card content-->
+        <div class="card-body">
+    
+          <!--Title-->
+          <h4 class="card-title">4 Card title</h4>
+          <!--Text-->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+          <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+    
+        </div>
+    
+      </div>
+      <!-- Card -->
+    </div>
+     
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <!-- Card -->
+      <div class="card mb-4" id="card1">
+    
+        <!--Card image-->
+        <div class="view overlay" style="position: relative;">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="btn_outer">
+              <button class="ss"> $$$$</button>
+              <button class="sm"> TAG</button>
+  
+            </div>
+             <div class="circle"> <img class="circle-img" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap"> </div>
+          </div>
+    
+        <!--Card content-->
+        <div class="card-body">
+    
+          <!--Title-->
+          <h4 class="card-title">5 Card title</h4>
+          <!--Text-->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+          <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+    
+        </div>
+    
+      </div>
+      <!-- Card -->
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-4">  
+      <!-- Card -->
+      <div class="card mb-4" id="card1">
+    
+        <!--Card image-->
+        <div class="view overlay" style="position: relative;">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="btn_outer">
+              <button class="ss"> $$$$</button>
+              <button class="sm"> TAG</button>
+  
+            </div>
+             <div class="circle"> <img class="circle-img" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap"> </div>
+          </div>
+    
+        <!--Card content-->
+        <div class="card-body" >
+    
+          <!--Title-->
+          <h4 class="card-title">6 Card title</h4>
+          <!--Text-->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+          <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+    
+        </div>
+    
+      </div>
+      <!-- Card -->
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <!-- Card -->
+      <div class="card mb-4" id="card1">
+    
+        <!--Card image-->
+        <div class="view overlay" style="position: relative;">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="btn_outer">
+              <button class="ss"> $$$$</button>
+              <button class="sm"> TAG</button>
+  
+            </div>
+             <div class="circle"> <img class="circle-img" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap"> </div>
+          </div>
+    
+        <!--Card content-->
+        <div class="card-body">
+    
+          <!--Title-->
+          <h4 class="card-title">7 Card title</h4>
+          <!--Text-->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+          <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+    
+        </div>
+    
+      </div>
+      <!-- Card -->
+    </div>  
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- Card -->
+        <div class="card mb-4" id="card1">
+      
+          <!--Card image-->
+          <div class="view overlay" style="position: relative;">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="btn_outer">
+              <button class="ss"> $$$$</button>
+              <button class="sm"> TAG</button>
+  
+            </div>
+             <div class="circle"> <img class="circle-img" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap"> </div>
+          </div>
+      
+          <!--Card content-->
+          <div class="card-body">
+      
+            <!--Title-->
+            <h4 class="card-title">8 Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+      
+          </div>
+      
+        </div>
+        <!-- Card -->
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- Card -->
+        <div class="card mb-4" id="card1">
+      
+          <!--Card image-->
+          <div class="view overlay" style="position: relative;">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="btn_outer">
+              <button class="ss"> $$$$</button>
+              <button class="sm"> TAG</button>
+  
+            </div>
+             <div class="circle" style="position:relative;"> <img class="circle-img" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap"> </div>
+          </div>
+      
+          <!--Card content-->
+          <div class="card-body">
+      
+            <!--Title-->
+            <h4 class="card-title">9 Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+      
+          </div>
+      
+        </div>
+        <!-- Card -->
+      </div>
+    </div>
+    <!-- Card deck -->
+      
+    </div>
+
+
+    
+   <div class="d-flex flex-column h-100">
+
+
+
+    <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h1 text-white">FB.</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Bootstrapious.com</a></p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3">Newsletter</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" id="button-addon2"type="button">subcribe</button>
+                        </div>
+                    </form>
+                </div>
+                <hr class="new1">
+                <section class="horizontal-footer-section" id="footer-bottom-section">
+                    <div id="footer-copyright-info">
+                        &copy; Reimu Inc. 2022. All rights reserved.
+                    </div>
+                    <div class="log">ThoughtBees</div>
+                    <div id="footer-social-buttons">
+                        <img src="https://img.icons8.com/ios-filled/25/999999/facebook--v1.png"/>
+                        <img src="https://img.icons8.com/ios-filled/25/999999/telegram-app.png"/>
+                        <img src="https://img.icons8.com/ios-filled/25/999999/pinterest--v1.png"/>
+                        <img src="https://img.icons8.com/ios-filled/25/999999/instagram--v1.png"/>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </footer>
+    
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/dropdown.js"></script> 
+<!-- <script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script> -->
+</body>
+</html>
