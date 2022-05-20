@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- navbar  -->
+	<div class="navbar">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<div class="dropdown">
+		  <button class="dropbtn">Service
+		  </button>
+		  <div class="dropdown-content">
+			<div class="header">
+			  <h2>Mega Menu</h2>
+			</div>
+			<div class="row">
+			  <div class="column">
+				<h3>Category 1</h3>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+			  </div>
+			  <div class="column">
+				<h3>Category 2</h3>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+			  </div>
+			  <div class="column">
+				<h3>Category 3</h3>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+			  </div>
+			  <div class="column">
+				<h3>Category 4</h3>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<a href="#carrer">Carrer</a>
+		<a href="#contact">Contact us</a>
+	  </div>
+<div class="table1">
+		<table>
+            <h1>User Input Form</h1>
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<td><input type="text" name="fname" id="fname"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Last Name</th>
+					<td><input type="text" name="lname" id="lname"></td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td><input type="text" name="email" id="email"></td>
+				</tr>
+				<tr>
+					<th>Age</th>
+					<td><input type="text" name="age" id="age"></td>
+				</tr>
+                <tr>
+                    <td>Male: <input type="radio" name="gender" value="male">
+                        Female: <input type="radio" name="gender" value="female">
+                        Other: <input type="radio" name="gender" value="other"></td>
+                        <td>
+                            <select name="language" id="language">
+                              <option value="">Select language</option>
+                              <option value="English">English</option>
+                              <option value="Spanish">Spanish</option>
+                              <option value="Hindi">Hindi</option>
+                              <option value="Arabic">Arabic</option>
+                              <option value="Russian">Russian</option>
+                            </select>
+                          </td>
+                          <tr>
+                            <td><label for="">Zip code</label></td>
+                            <td><input type="number" name="zipcode" id="zipcode"></td>
+                          </tr>
+                </tr>
+				<tr>
+					<td><label for="about">About:</label></td>
+					<td><textarea name="about" id="about" placeholder="Write about yourself..."></textarea></td>
+				  </tr>
+				<tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Submit" onclick="AddRow()"></td>
+				</tr>
+			</tbody>
+		</table>
+    </div>
+<div  class="table2">
+		<table id="show">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+					<th>Age</th>
+                    <th>Gender</th>
+                    <th>Language</th>
+                    <th>Zip Code</th>
+					<th>About</th>
+				</tr>
+			</thead>
+		</table>
+</div>
+	
+	<script src="/script.js"></script>
+</body>
+</html>
