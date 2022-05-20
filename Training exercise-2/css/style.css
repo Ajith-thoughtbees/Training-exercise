@@ -1,0 +1,427 @@
+#container {
+    text-align: center;
+}
+nav {
+	margin: 0px 0;
+	background-color: #212737;
+    position: relative; 
+    z-index: 100;
+}
+nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+}
+nav ul li {
+	display:inline-block;
+	background-color: #212737;
+  position: relative;
+	}
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+nav a:hover { 
+	background-color: #000000; 
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+  
+}
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+/* Change this in order to change the Dropdown symbol */
+nav ul ul li.arrow a.drop_link:after { 
+  content:  '  ↓';
+  position: absolute;
+  right: 20px;
+  transform:rotate(270deg) ;
+}
+
+
+nav ul ul li.arrow a.drop_link {
+  position: relative;
+}
+
+/* Slider */
+.img-container {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    /* left: 1px; */
+    /* top: -40px; */
+    float: left;
+    height: 350px;
+    width: 100%;
+  }
+  .img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 2;
+  }
+  .slider-heading{
+    text-align: center;
+    font-size: 42px;
+  }
+  .slider-para{
+    margin: -3px 4px 20px 20px
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 303px;
+    top: 82px;
+   
+}
+.heading{
+      color:#022148;
+      font-size: 25px;
+      margin-top: 415px;
+  }
+  .para{
+      text-align: center;
+      font-weight: bold;
+      font-size: 11px;
+  }
+  
+
+.container {
+  display: flex;
+  width: 1020px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px auto;
+    
+  }
+  .card {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #858585;
+    /* overflow: hidden; */
+    width: 300px;
+    max-height: 400px;
+    transition: box-shadowcubic-bezier(1, 0, 0, 1);
+    border-radius:10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+  }
+  .card:hover{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+  }
+  .card-header img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 130px;
+  }
+  
+  .tag {
+    background: #cccccc;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .tag-teal {
+    background-color: #47bcd4;
+  }
+  .tag-purple {
+    background-color: #5e76bf;
+  }
+  .tag-pink {
+    background-color: #cd5b9f;
+  }
+  
+  .card-body p {
+    font-size: 13px;
+    margin: 0 0 40px;
+  }
+  .user a{
+    display: flex;
+    margin-top: auto;
+    color: red;
+    text-decoration: none;
+  }
+  .footer-up{
+      position: relative;
+      text-align: center;
+      bottom: -4px;
+  }
+  
+  .footer-up img{
+    width: 100%;
+    height: 230px;
+  }
+  .footer-up h1{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: white;
+  }
+  .footer-up input[type=text]{
+    position: absolute;
+    padding: 10px;
+    border: none;
+    top: 57%;
+    left: 34%;
+    font-size: 15px;
+    background-color: #FFF;
+    color: #fff;
+    width: 20%;
+    border-color: #FFF;
+ }
+.button{
+  position: absolute;
+  background-color: #F10301;
+  top: 55%;
+  left: 56%;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #212121;
+  padding: 3em 4em 2em;
+}
+
+  footer .logo {
+      color:#fff;
+      font-size: 28px;
+      margin-left: -75%;
+  }
+
+  footer .row {
+      margin: 2em 0;
+      color: #fff;
+      position: relative;
+      border-bottom: 1px solid #cecece;
+  }
+  .footer-cat1{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: -28%;
+    font-size: 20px;
+  }
+  .footer-toggle {
+      display: none;
+  }
+
+  .link-cat {
+      cursor:pointer;
+  }
+  
+  footer ul {
+      padding:0;
+      -webkit-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;        
+  }
+
+      footer ul li {
+          list-style-type: none;
+          padding:0;            
+          -webkit-transition: all .5s ease-in-out;            
+          transition: all .5s ease-in-out;
+          line-height: 2;            
+      }  
+
+      footer .footer-cat, #newsletter span {
+          font-size: 20px;
+      }
+      .footer-cat-links{
+        font-family:'Times New Roman', Times, serif;
+      }
+.footer-cat-links1 img{
+  width: 10px;
+ }
+      .footer-cat-links a {
+          color: #cecece;
+          text-decoration: none;
+          position: relative;
+      }
+
+      .footer-cat-links.active > li a {
+          pointer-events: auto;
+      }
+
+      .footer-cat-links a:after {
+          top: 21px;
+          content: "";
+          display: block;
+          height: 2px;
+          left: 50%;
+          position: absolute;
+          width: 0;
+          background: #fff;
+          
+          -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+          transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      }
+
+      .footer-cat-links a:hover:after, .footer-cat-links a:focus:after {
+          width: 100%;
+          left: 0;
+      }
+
+      footer #subscribe {
+          margin: 20px 0px 30px;
+      }
+
+      input#subscriber-email {
+          outline: none;
+          padding: 8px;
+          background: #212121;
+          border: 1px solid #cecece;
+          color: #cecece;
+          border-radius: 4px 0px 0px 4px;
+      }
+
+      input#subscriber-email::-webkit-input-placeholder {
+          color:rgb(202, 196, 196);
+      }
+
+      input#subscriber-email:-ms-input-placeholder {
+          color:#cecece;
+      }
+
+      input#subscriber-email::-ms-input-placeholder {
+          color:#cecece;
+      }
+
+      input#subscriber-email::placeholder {
+          color:#cecece;
+      }
+
+  .col-3 {
+      display: inline-table;
+      width:20%;
+      margin-left: -2%;
+  }
+
+  .col-3#newsletter {
+      width:24%;
+    
+  }
+
+  .col-3#newsletter #btn-scribe {
+      margin-left: -4px;
+      border: 1px solid #cecece;
+      border-radius: 0px 4px 4px 0;
+      padding: 8px 5px;
+      background-color: #e2e2e2;
+      color: #212121;
+      cursor: pointer;
+  }
+
+  .social-2 {
+      display: none;
+  }
+
+  .social-links {
+    bottom: 80px;
+    position: absolute;
+    left: 78%;
+  }
+  
+      .social-links a {
+          color: #fff;
+          font-size: 20px;
+          border: 1px solid;
+          border-radius: 20px;
+          padding: 6px;
+
+          -webkit-transition:all .2s ease-in;
+          transition:all .2s ease-in;
+      }
+
+      .social-links a:not(:last-child) {
+          margin-right: 10px;
+      }
+
+      .social-links a:hover, .social-links a:focus {
+          background-color: #212121;
+      }
+
+          .social-links a i {
+              width: 25px;
+              height: 25px;
+              text-align:center;
+          }
+
+          #newsletter #address li:not(:first-child) {
+              padding: 20px 0;
+          }
+      
+              #newsletter #address li i {
+                  font-size: 45px;
+                  width: auto;
+                  padding: 5px;
+              }
+
+                  #newsletter #address li div {
+                      color: #cecece;
+                      font-size: 14px;
+                      width: 80%;
+                      text-align: left;
+                      float: right;
+                      line-height: 1.3;
+                  }
+
+  #copyright {
+      text-align: center;
+      color:#fff;
+      font-family: lato;
+  }
+
